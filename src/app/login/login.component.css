@@ -1,0 +1,75 @@
+.login-background {
+    background-color: #550062;
+    background-attachment: fixed;
+    text-align: center;
+    height: 100vh;
+}
+
+.company-logo {
+    max-width:250px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    margin: 30px;
+}
+
+.password-link {
+    text-decoration: none;
+    outline: none;
+    color: white;
+}
+
+.password-link:hover {
+    cursor: pointer;
+    color: #dfdfdf;
+}
+
+.card-container {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    font-size: 20px;
+    border-radius: 2px;
+    border: none;
+    background-color: #FFFFFF;
+    width: 70vh;
+    margin: 0px 0px 10px 0px;
+    padding: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+.input {
+    font-family: Poppins;
+    font-size: 18px;
+    width: 100%;
+    padding: 15px 15px;
+    margin: 15px 0px;
+    box-sizing: border-box;
+    border: 2px solid #cdcdce;
+    border-radius: 5px;
+}
+
+.input-label {
+    text-align: left;
+}
+
+.submit-button {
+    border: 1px solid transparent;
+    background-color: #0069d9;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+    padding: .375rem .75rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    border-radius: 2px;
+}
+
+.submit-button:hover {
+    background-color: #004b9b;
+    cursor: pointer;
+}
