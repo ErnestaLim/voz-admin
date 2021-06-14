@@ -1,1 +1,7 @@
-<p>button works!</p>
+<ng-template>
+  <button type="button"
+          [ngStyle]="buttonText"
+          (click)="onClickBtn($event)">
+    {{ buttonText }}
+  </button>
+</ng-template>
