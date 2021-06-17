@@ -1,5 +1,5 @@
 <button
-        class="button"
-        (click)="onClickBtn($event)">
-  {{ text }}
+      [ngClass]="['button', color]"
+      (click)="onClickBtn($event)">
+    <ng-content></ng-content>
 </button>
