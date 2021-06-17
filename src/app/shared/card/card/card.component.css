@@ -1,0 +1,10 @@
+.cardContainer {
+    font-size: 20px;
+    border-radius: 2px;
+    border: none;
+    background-color: #FFFFFF;
+    max-width: 80vh;
+    padding: 16px;
+    transition: all 0.2s ease-in-out;
+    margin: 10px;
+}

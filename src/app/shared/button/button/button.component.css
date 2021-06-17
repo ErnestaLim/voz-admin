@@ -1,0 +1,29 @@
+.button{
+    font-size: 17px;
+    font-weight: 700;
+    padding: 5px 18px;
+    border-radius: 5px;
+    border:0px;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+}
+
+.green {
+    color: #00AE3B;
+    background-color: #93E9AA;
+}
+
+.blue {
+    color: #6993FF;
+    background-color: #C4D5FF;
+}
+
+.grey {
+    color: #9E9E9E;
+    background-color: #E4E4E4;
+}
+
+.red {
+    color: #FF7272;
+    background-color: #FFC9C9;
+}

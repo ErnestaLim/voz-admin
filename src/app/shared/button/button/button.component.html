@@ -1,1 +1,5 @@
-<p>button works!</p>
+<button
+      [ngClass]="['button', color]"
+      (click)="onClickBtn($event)">
+    <ng-content></ng-content>
+</button>
